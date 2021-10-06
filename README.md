@@ -19,31 +19,33 @@ _Library:_
 - React
 - Redux
 
-## 📡 Live Demo
 
-[Link to Live Demo](https://donard97.github.io/Bookstore-React-Redux/)
 
 ## 💻 Install
 
-To clone this repo go to "https://github.com/Donard97/Bookstore-React-Redux"
+To clone this repo go to "https://github.com/Isabellanamutenda/book-store-react-redux.git"
 
-## 🙎🏾‍♂️ Author
+## Author
 
- **Donard Golaj**
+👤 **Isabella Namutenda**
 
-- Github : [@Donard97](https://github.com/Donard97)
+- GitHub: [https://github.com/Isabellanamutenda)
+
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Donard97/math-magician/issues).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [Microverse](https://www.microverse.org/) licensed.
