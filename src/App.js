@@ -1,13 +1,26 @@
 import React from 'react';
-import Container from './components/Container';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar';
+import BookList from './components/BookList';
+import Categories from './components/Categories';
 
-function App() {
-  return (
-    <div className="App">
-      <Container />
-    </div>
-  );
-}
+const App = () => (
+  <Router>
+    <Navbar />
+    <Switch>
+      <Route exact path="/">
+        <BookList />
+      </Route>
+      <Route path="/categories">
+        <Categories />
+      </Route>
+    </Switch>
+  </Router>
+);
 
 export default App;
