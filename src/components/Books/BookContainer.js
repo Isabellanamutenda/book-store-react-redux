@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import BooksList from './BooksList';
+import BooksList from './BookList';
 import InputBook from './InputBook';
 import { removeBook, fetchData, sendData } from '../../redux/books/books';
 

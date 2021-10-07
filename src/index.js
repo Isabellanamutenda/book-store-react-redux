@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import store from './redux/configureStore';
 import './App.css';
-import BooksContainer from './components/Books/BooksContainer';
+import BooksContainer from './components/Books/BookContainer';
 import Categories from './components/Categories/Categories';
 import Navbar from './components/Main/Navbar';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
