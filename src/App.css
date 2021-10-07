@@ -1,111 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@100;400;700&display=swap');
-
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
-  font-family: sans-serif;
-  color: #444;
-  background: #fff;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  padding-left: 6.25rem;
-  height: 6rem;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.logo {
-  margin-right: 3rem;
-}
-
-.logo h1 {
-  font-weight: bold;
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  margin-top: 0.8rem;
-}
-
-.list li {
-  margin-right: 2rem;
-}
-
-.books-list {
-  width: 100%;
-}
-
-.active-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.book {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 1.5rem 6rem;
-  align-items: center;
-  padding: 1.5rem;
-  gap: 1rem;
-}
-
-.book-title {
-  font-family: 'Roboto Slab', serif;
-  font-size: 1.3rem;
-}
-
-.info {
-  flex: 2;
-}
-
-.completed {
-  display: flex;
-  flex: 1;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-.percent {
+nav h1 {
   font-size: 2rem;
 }
 
-.chapter {
-  flex: 1;
+ul {
+  list-style-type: none;
 }
 
-.booksForm {
+.menu {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.menu ul {
   display: flex;
-  justify-content: space-between;
-  gap: 2.12rem;
-  margin: 1rem 6rem;
-  margin-bottom: 8rem;
+  gap: 1rem;
 }
 
-.booksForm input {
-  padding-left: 0.5rem;
+.menu li a {
+  text-decoration: none;
+  color: black;
 }
 
-.title {
-  flex: 3;
+button {
+  margin: 5px;
 }
 
-.category {
-  flex: 1;
-}
-
-.booksForm button {
-  flex: 1;
-}
-
-.add-title {
-  margin-left: 6rem;
-  font-family: 'Montserrat', sans-serif;
+input {
+  margin: 5px;
 }
