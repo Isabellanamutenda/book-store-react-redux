@@ -11,7 +11,7 @@ export const addBook = (payload) => ({
 
 export const fetchData = () => async (dispatch) => {
   const response = await fetch(
-    'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/mnWl6zWJHf5Fwk5ARAAR/books',
+    'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/UvIaD9cA8GrbXFfmM1z5/books',
   );
 
   const json = await response.json();
@@ -31,7 +31,7 @@ export const fetchData = () => async (dispatch) => {
 
 export const sendData = (book) => async (dispatch) => {
   fetch(
-    'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/mnWl6zWJHf5Fwk5ARAAR/books',
+    'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/UvIaD9cA8GrbXFfmM1z5/books',
     {
       method: 'POST',
       body: JSON.stringify({
@@ -52,7 +52,7 @@ export const sendData = (book) => async (dispatch) => {
 
 export const removeBook = (book) => async (dispatch) => {
   fetch(
-    `https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/mnWl6zWJHf5Fwk5ARAAR/books/${book.item_id}`,
+    `https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/UvIaD9cA8GrbXFfmM1z5/books/${book.item_id}`,
     {
       method: 'DELETE',
     },
